@@ -4,6 +4,8 @@ fail=0
 
 git fetch
 
+git rev-list origin/master..
+
 # list all commits between HEAD and master
 for commit in $(git rev-list origin/master..)
 do
