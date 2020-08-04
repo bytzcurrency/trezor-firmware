@@ -2,7 +2,7 @@
 
 fail=0
 
-git fetch origin master
+git fetch
 
 # list all commits between HEAD and master
 for commit in $(git rev-list origin/master..)
