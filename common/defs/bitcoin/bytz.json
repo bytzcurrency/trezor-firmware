@@ -8,7 +8,7 @@
   "curve_name": "secp256k1",
   "decimals": 8,
   "address_type": 125,
-  "address_type_p2sh": 13,
+  "address_type_p2sh": 18,
   "maxfee_kb": 100000,
   "minfee_kb": 100,
   "signed_message_header": "DarkNet Signed Message:\n",
