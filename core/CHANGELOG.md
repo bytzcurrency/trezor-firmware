@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## 2.3.3 [to be released on 2nd September 2020]
+
+### Added
+- Running the frozen version of the emulator doesn't need arguments.  [#1115]
+- CoinJoin preauthorization and siging flow.  [#1053]
+
+### Changed
+- Print inverted question mark for non-printable characters.
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Security
+
 ## 2.3.2 [to be released on 5th August 2020]
 
 ### Added
@@ -14,11 +31,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Support pre-signed EXTERNAL transaction inputs.
 - Support multiple change-outputs.  [#1098]
 - New option `safety-checks` allows overriding "forbidden key path" errors.  [#1126]
+- Support for Cardano Shelley.  [#948]
 
 ### Changed
 - `Features.pin_cached` renamed to `unlocked`.
 - Forbid all settings if the device is not yet initialized.  [#1056]
 - Rewrite USB codec and Protobuf decoder to be more memory-efficient.  [#1089]
+- Allow compatibility namespaces for Casa and Green Address. 
 
 ### Deprecated
 - Deprecate `overwintered` field in `SignTx` and `TxAck`.
@@ -31,8 +50,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Fix repaint bug in QR code rendering.  [#1067]
 - Fix QR code overlapping in Monero address.  monero-gui#2960, [#1074]
 - Re-introduce ability to spend pre-Overwinter UTXO on Zcash-like coins.  [#1030]
-
-### Security
 
 ## 2.3.1 [Jun 2020]
 
@@ -227,14 +244,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 - First public release.
 
+[#948]: https://github.com/trezor/trezor-firmware/issues/948
 [#958]: https://github.com/trezor/trezor-firmware/issues/958
 [#1027]: https://github.com/trezor/trezor-firmware/issues/1027
 [#1030]: https://github.com/trezor/trezor-firmware/issues/1030
 [#1042]: https://github.com/trezor/trezor-firmware/issues/1042
 [#1052]: https://github.com/trezor/trezor-firmware/issues/1052
+[#1053]: https://github.com/trezor/trezor-firmware/issues/1053
 [#1056]: https://github.com/trezor/trezor-firmware/issues/1056
 [#1067]: https://github.com/trezor/trezor-firmware/issues/1067
 [#1074]: https://github.com/trezor/trezor-firmware/issues/1074
 [#1089]: https://github.com/trezor/trezor-firmware/issues/1089
 [#1098]: https://github.com/trezor/trezor-firmware/issues/1098
+[#1115]: https://github.com/trezor/trezor-firmware/issues/1115
 [#1126]: https://github.com/trezor/trezor-firmware/issues/1126
