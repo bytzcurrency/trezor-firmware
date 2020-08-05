@@ -7,7 +7,7 @@
   "maintainer": "Oleg Mitrakhovich <o.mitrakhovich@binge.com>",
   "curve_name": "secp256k1",
   "decimals": 8,
-  "address_type": 30,
+  "address_type": 125,
   "address_type_p2sh": 13,
   "maxfee_kb": 100000,
   "minfee_kb": 100,
