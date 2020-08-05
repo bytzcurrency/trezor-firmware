@@ -2,7 +2,7 @@
 
 fail=0
 
-git fetch origin master
+git fetch origin
 
 git rev-list origin/master..
 
