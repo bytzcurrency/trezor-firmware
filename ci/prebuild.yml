@@ -40,7 +40,6 @@ release commit messages prebuild:
   before_script: []  # nothing needed
   variables:
     # The commits can be buried further in history (although unlikely).
-    GIT_DEPTH: "500"
     GIT_STRATEGY: none
 #  only:
 #    - /^release\//
