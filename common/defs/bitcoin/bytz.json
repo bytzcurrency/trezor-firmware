@@ -11,7 +11,7 @@
   "address_type_p2sh": 18,
   "maxfee_kb": 100000,
   "minfee_kb": 100,
-  "signed_message_header": "DarkNet Signed Message:\n",
+  "signed_message_header": "BYTZ Signed Message:\n",
   "hash_genesis_block": "00000feb03167c4a4fa9f2bafcaea0e9f7e5646330e13c69e7ffa2dce58ace44",
   "xprv_magic": 35729707,
   "xpub_magic": 36513075,
