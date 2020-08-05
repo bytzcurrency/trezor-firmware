@@ -19,7 +19,7 @@
   "xpub_magic_segwit_native": null,
   "bech32_prefix": null,
   "cashaddr_prefix": null,
-  "slip44": 119,
+  "slip44": 416,
   "segwit": false,
   "decred": false,
   "fork_id": null,
